@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def read_file(filename):
@@ -18,6 +18,7 @@ setup(name='citybox',
       description=citybox.__doc__,
       author=citybox.__author__,
       author_email='raulsetron@gmail.com',
+      packages=find_packages(),
       url='https://github.com/rulz/citybox_python',
       platforms=['all'],
       classifiers=[

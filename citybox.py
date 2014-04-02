@@ -4,6 +4,8 @@ import xmltodict
 
 url = 'http://api-cl.easypack24.net/?do=listmachines_xml'
 
+__author__ = 'Raul Sepulveda'
+__version__ = '0.0.1'
 
 def get_dict_citybox(url=url):
     file = urllib2.urlopen(url)

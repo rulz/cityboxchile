@@ -19,7 +19,7 @@ setup(name='citybox',
       author=citybox.__author__,
       author_email='raulsetron@gmail.com',
       packages=find_packages(),
-      url='https://github.com/rulz/citybox_python',
+      url='https://github.com/rulz/cityboxpython',
       platforms=['all'],
       classifiers=[
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',

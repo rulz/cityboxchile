@@ -13,13 +13,13 @@ def read_file(filename):
 
 import citybox
 
-setup(name='citybox',
+setup(name='cityboxchile',
       version=citybox.__version__,
       description=citybox.__doc__,
       author=citybox.__author__,
       author_email='raulsetron@gmail.com',
       packages=find_packages(),
-      url='https://github.com/rulz/cityboxpython',
+      url='https://github.com/rulz/cityboxchile',
       platforms=['all'],
       classifiers=[
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',

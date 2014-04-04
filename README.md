@@ -5,7 +5,7 @@ All Citybox of Santiago de Chile
 
 **"install citybox"**
 ```
-pip install -e git://github.com/rulz/citybox_python#egg=cityboxchile
+pip install -e git://github.com/rulz/cityboxpython#egg=cityboxchile
 ```
 
 **"config in forms.py"**
